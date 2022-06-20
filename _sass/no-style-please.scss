@@ -2,7 +2,18 @@
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-@import url('http://fonts.cdnfonts.com/css/menlo');
+
+@font-face {
+    font-family: 'Menlo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('Menlo-Regular.woff') format('woff');
+}
+
+
+
+
+
 html, body { background: #2E3440; }
 
 html { height: 100%; }
