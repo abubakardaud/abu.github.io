@@ -4,7 +4,7 @@
 // see: https://stackoverflow.com/a/61265706
 
 @font-face {
-    font-family: 'Menlo';
+    font-family: Menlo;
     font-style: normal;
     font-weight: 400;
     src: url('Menlo-Regular.woff') format('woff');
@@ -20,7 +20,7 @@ html { height: 100%; }
 
 body {
   color: #ECEFF4;
-  font-family: 'Menlo';
+  font-family: Menlo;
   font-size: 14px;
   line-height: 1.4;
   margin: 0;
